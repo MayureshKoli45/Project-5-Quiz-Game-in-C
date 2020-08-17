@@ -373,7 +373,7 @@ int main()
 
         else if (sq == 'v')
         {
-            fflush(stdin);         // We operation for showing leaderboard
+            fflush(stdin);         // This operation for showing leaderboard
             ptr = fopen("score.txt", "r");  // This fill store all scores
             score = fgetc(ptr);
             while (score != EOF)     // This reads the character of that file
